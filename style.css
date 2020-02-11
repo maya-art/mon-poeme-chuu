@@ -1,0 +1,58 @@
+
+body {
+
+  font-size: 99%;
+font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+a {
+  font-weight: bold;
+  color: pink;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+#container {
+  background: white;
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  height: 99vh;
+}
+
+.box {
+  width: 75%;
+  margin: 5px;
+  text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+p{
+	color :black ;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+
+}
+
+
+li {
+  color:#ffccff;
+  	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+  	font-family: Futura, "Trebuchet MS", Arial, sans-serif;s
+}
+
+.button {
+  background-color: #ffe6ff;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #e6ffff;
+  text-decoration-color: #ffe6ff;
+}
